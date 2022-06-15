@@ -1,0 +1,382 @@
+*{margin: 0;padding: 0;}
+h1{  font-family: "Anton";    font-weight: 600;}
+p{font-family: neue-haas-grotesk-text;}
+button{width: 70px;height: 50px;background-color: #EFAB23;border: 0;outline: 0;color: #2b2d42;
+  font-family: bold;}
+.row{margin-bottom:6%;}
+/*******************************************************/
+body{margin: 0;padding: 0;font-family: Saira, sans-serif;}
+
+.navbar{background-color: #fff!important;}
+.navbar img{display: block;width:150px;height:42px;margin-left: 20%;}
+.nav-link{color:black!important;font-family: "Anton" !important;padding-top: .5% !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;}
+.collapse{margin-left: 28%;}
+.nav-item .action{color: #EFAB23!important;}
+
+.nav-link:hover{color: #EFAB23!important;}
+.navbar-toggler{background-color: #fff !important;}
+
+@media (min-width: 992px){.navbar-expand-lg .navbar-nav .nav-link  {
+    padding-right: 1rem !important;
+    padding-left:1.5rem !important;
+}
+
+}
+@media (max-width: 992px) {.navbar img{margin-left: 0% !important}}
+/*****************************************************************************************/
+
+.banner-section1{width: 100%;overflow: hidden;position: relative;color: #fff;
+  background-color: #eee;
+float: left;}
+
+.banner-section1 .left-section{background-color: #eee;float: left;width: 75%;height: 700px;}
+
+.banner-section1 .right-section{background-color: #2b2d42;float: left;width: 25%;height: 700px;}
+.banner-section1 .yellow-box{position: absolute;width: 360px;height: 460px;background-color: #EFAB23;left: 64%;top: 22%;border-radius: 10px;}
+.banner-section1 img{position: absolute;display: block;width: 450px;height: auto;left: 58%;top: 12%;}
+
+
+.banner-section1 .content{width: 60%;height: 560px;margin: auto;}
+.banner-section1  h1{  padding-top: 20%;color: #2b2d42;
+ 
+  padding-bottom: 6px;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 600;font-family: Saira, sans-serif;
+}
+.banner-section1 p{font-family: Saira, sans-serif;width: 85%;
+  color: rgba(66, 61, 61, 0.6);
+  font-size: 18px;
+  line-height: 28px;}
+
+.banner-section1 button{width: 210px;font-weight: 700;background-color: #EFAB23;margin-top: 2%;font-family: "Jost", sans-serif;
+  transition: background-color 0.5s;color: #2b2d42;}
+
+@media (max-width: 992px) {.banner-section1 .content{width: 100%;padding-left: 4%;}}
+/**************************************************************************************************/
+.trust-section{float: left;width: 100%;overflow: hidden;position: relative;}
+
+.trust-section h2 {text-align: left;padding-left: 8%;padding-top: 4%;   
+  font-size: 36px;
+  font-weight: 600;
+ font-family: Arial,sans-serif;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2b2d42}
+
+.trust-section  h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 130px;
+  height: 1px;
+  background: #2b2d42;
+  bottom: 1px;
+  left: calc(11% - 20px);
+}
+.trust-section h2::after{    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #EFAB23;
+    bottom: 0;
+    left: calc(14% - 20px);}
+    .trust-section  p{font-family: Saira, sans-serif;width: 85%;padding:1% 0px 0px 10%;
+
+      color: #999999;
+      font-size: 18px;
+    margin-bottom: 4%;
+      line-height: 28px;}
+.trust-section img{max-height: 60px; 
+  max-width: 160px;
+  opacity: 0.4;
+  }
+   /***************************************************************************************************/
+.about-us{float: left;width: 100%;overflow: hidden;position: relative;margin-top: 3%;}
+
+.about-us h2 {text-align: left;padding-left: 4%;
+  font-size: 36px;
+  font-weight: bold;padding-top: 14%;
+  text-transform: uppercase;font-family: "Jost", sans-serif;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2b2d42;}
+.about-us h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 1px;
+  background: #2b2d42;
+  bottom: 1px;
+  left: calc(16% - 20px);
+}
+  .about-us h2::after{    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #EFAB23;
+    bottom: 0;
+    left: calc(26% - 20px);}
+    .about-us  .pic,.about-us .content{width: 100%;overflow: hidden;}
+.about-us  .pic{position: relative;}
+    .about-us   .yellowbox{position: absolute;width: 360px;height: 460px;background-color: #EFAB23;left: 4%;top: 22%;
+      border-radius: 10px;z-index: -1;}
+      .about-us p{width: 90%;font-size: 21px;color: #999999;padding-left: 2%;padding-top: 2.5%;}
+.about-us .pa{width: 47%;float: left;padding-left: 4%;}
+.about-us .pa span{padding-right: 1.5%;}
+.about-us p:last-of-type{width: 100%;}
+.about-us button{margin-top: 2%;font-weight: 700;width: 200px;;margin-left: 4%;display: block;float: left;}
+
+
+/********************************************************************************/
+.partner-section{float: left;width: 100%;overflow: hidden;position: relative;}
+
+.partner-section h2 {text-align: left;padding-left: 8%;padding-top: 4%;   
+  font-size: 36px;
+  font-weight: 600;
+ font-family: Arial,sans-serif;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2b2d42}
+
+.partner-section h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 270px;
+  height: 1px;
+  background: #2b2d42;
+  bottom: 1px;
+  left: calc(14% - 20px);
+}
+.partner-section h2::after{    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #EFAB23;
+    bottom: 0;
+    left: calc(22% - 20px);}
+    .partner-section  p{font-family: Saira, sans-serif;width: 85%;padding:1% 0px 0px 10%;
+
+      color: #999999;
+      font-size: 18px;
+    margin-bottom: 4%;
+      line-height: 28px;}
+      .partner-section  .box{height: 300px;background-color: #eee;position: relative;margin-top: 2%;}
+      .partner-section  .content h1{padding:3% 0% 2% 8%;font-size: 24px;color: #2b2d42;font-weight: 700;}
+      .partner-section  .content h1:hover{color: #EFAB23;}
+      .partner-section  .content p{color: #121212;}
+      .partner-section  .pic,   .partner-section  .content{width: 100%;float: left;overflow: hidden}
+      .partner-section .pic img{display: block;width: 100%;height: auto;margin:auto 
+    ;}
+
+.carousel-control-next , .carousel-control-prev {color: #2b2d42 !important;top: 87% !important;}
+.carousel-control-next{left: 86% !important;}
+.carousel-control-prev{left: 82% !important;}
+.carousel-control-next,.carousel-control-prev{background-color:#EFAB23!important;border: 0;;width: 50px !important;height: 50px !important;opacity: 1 !important;}
+.partner-section  .x{margin-bottom: 8%;}
+/************************************************************************/
+.section5{width:100%;float: left;;text-align: center;overflow: hidden;padding-top: 2%;}
+.section5 h2 {text-align: center;
+  font-size: 36px;
+  font-weight: bold;padding-top: 3.9%;
+  text-transform: uppercase;font-family: "Jost", sans-serif;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2b2d42;}
+  .section5 h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #2b2d42;
+  bottom: 1px;
+  left: calc(50% - 60px);}
+  .section5 h2::after{    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #EFAB23;
+    bottom: 0;
+    left: calc(50% - 20px);}
+
+.section5 .x{margin-bottom: 8%;margin-top: 4%;}
+.section5 .pic{width: 100%;overflow: hidden;background-size:cover}
+.section5 .content{width: 100%;height: 200px;text-align: left;background-color: #eee;padding-left: 4%;}  
+
+  .section5 h5{color: #2b2d42;font-size: 20px;padding-top: 4%;font-family: "Cormorant", serif;font-weight: 500;}
+  .section5 .pic img{width: 100%;height: 350px;}
+  .section5 p{color: #777777;width: 80%;font-size: 18px;}
+  /****************************************************************************************/
+
+  .Raise-section{float: left;width: 100%;overflow: hidden;position: relative;}
+
+  .Raise-section h2 {text-align: left;padding-left: 4%;
+  font-size: 36px;
+  font-weight: bold;padding-top: 38%;
+  text-transform: uppercase;font-family: "Jost", sans-serif;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2b2d42;}
+  .Raise-section  h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 310px;
+  height: 1px;
+  background: #2b2d42;
+  bottom: 1px;
+  left: calc(16% - 20px);
+}
+.Raise-section h2::after{    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #EFAB23;
+    bottom: 0;
+    left: calc(42% - 20px);}
+  .Raise-section .pic,  .Raise-section .content{width: 100%;overflow: hidden;}
+  .Raise-section .pic{position: relative;}
+  .Raise-section .pic img{margin-left: 11%;}
+  .Raise-section   .yellowbox{position: absolute;width: 360px;height: 460px;background-color: #EFAB23;left: 4%;top: 22%;
+      border-radius: 10px;z-index: -1;}
+      .Raise-section p{width: 90%;font-size: 21px;color: #999999;padding-left: 2%;padding-top: 2.5%;}
+  
+      .Raise-section button{margin-top: 2%;font-weight: 700;width: 200px;;margin-left: 4%;display: block;float: left;}
+
+ /*************************************************************************************************/ 
+.client-say {width: 100%;float: left;height: 500px; }
+.client-say  h4{    font-size: 2.298em;font-weight: 600; line-height: 1.2; margin:auto;padding-top: 8%;color: #fff;
+}
+.client-say p{font-size: 1.15em;margin: auto;font-weight: 400;width: 60%;margin-top: 2%;color: #fff;}
+.client-say  hr{width: 20%;background-color: #f16700;margin: auto;margin-bottom: 3%;}
+.client-say .box{width: 100%;height: 280px;background-color: #eee;border-radius: 15px;margin-top: 5%}
+.client-say .pic, .client-say .content{width: 100%;float: left;height: 130px;}
+.client-say .checked {
+  color: orange;
+}
+
+.client-say h2 {text-align: center;
+  font-size: 36px;
+  font-weight: bold;padding-top: 3.9%;
+  text-transform: uppercase;font-family: "Jost", sans-serif;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2b2d42}
+  .client-say h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #2b2d42;
+  bottom: 1px;
+  left: calc(50% - 60px);}
+  .client-say h2::after{    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #EFAB23;
+    bottom: 0;
+    left: calc(50% - 20px);}
+  .client-say .par{padding-bottom: 2%;font-size: 1rem;color: #2b2d42;}
+  .client-say h6{color: #2b2d42;padding-left: 4%;}
+  .client-say p{color: #99a1af;width: 85%;}
+  .client-say .pic .rate{width: 40%;float: left;margin-top: 11%;}
+  .client-say .pic .image{width: 70px;height: 70px;border-radius: 100%;background-image: url("https://thepixelcurve.com/html/appzing/image/profile-img-2.jpg");background-position: center;background-size: cover;margin-left: 5%;margin-top: 4%;float: left;}
+/***********************************************************************/
+/************************************************************************/
+.contact-us{width:100%;float: left;;overflow: hidden;text-align: center;padding-top: 4%; }
+.contact-us .container{max-width: 1340px !important;}
+
+.contact-us  .right-box{width:80%;overflow:hidden;background-color:#1f314e;margin:auto;padding-top: 10%;margin-top: 8%;}
+
+.contact-us  h2 {width: 80%;margin: auto;
+  font-size: 36px;
+  font-weight: 600;
+ font-family: Arial,sans-serif;padding-top:1%;
+
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2b2d42;}
+ 
+  .contact-us h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #2b2d42;
+    bottom: 1px;
+    left: calc(50% - 60px);}
+    .contact-us   h2::after{    content: "";
+      position: absolute;
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: #EFAB23;
+      bottom: 0;
+      left: calc(50% - 20px);}
+      .contact-us  .right-box h2{color: #fff;}
+  .contact-us  p{color: #99a1af;width: 80%;margin: auto;font-size: 18px;font-weight: 700;padding-top: 1%;}
+.contact-us .right-box  input {width: 80%; margin:auto; border: 1px solid #999999;height: 40px;display:block;margin-top: 4%; 
+  background-color: #242B51;
+   padding-left:2%;
+}
+
+.contact-us   textarea{width: 80%;height: 120px;margin-top: 2%;   padding-top: 2% ; background-color: #242B51; padding-left: 3%;  
+
+       }
+  .contact-us  button{width: 60%;height: 50px;margin-left:19%;margin-top: 4% !important;
+        font-family: "Montserrat", Sans-serif !important;display:block;
+    font-size: 18px !important;
+    font-weight: 300 !important;border:0;margin-bottom: 12%
+   
+    }
+ 
+      .contact-us .x{margin-bottom: 6%;}
+/*************************************************************************/
+.footer{width: 100%;float: left;overflow:hidden;}
+.footer .main-section{float: left;width: 100%;overflow: hidden;;background-color: #1f314e}
+.footer .box{width: 100%;overflow: hidden;text-align: left;margin-bottom: 6%;padding-left: 20%;}
+.footer h3{color: #fff;font-family: 'Schoolbell', cursive !important;width: 100%;font-size: 1.6rem;padding-bottom: 2%;}
+.footer .x{margin-top: 3%;margin-bottom: 3%;
+    ;}
+    .footer img{width: 240px;height: 120px;display: block;margin-top: 2%;}
+.footer a{color: #999999; text-decoration: none;}
+.footer  h2 {color: #fff;padding-left: 10%;
+    font-family: "Montserrat", Sans-serif;
+    font-style: normal;font-size: 30px;margin-bottom: 4%;margin-top:3%;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0;
+  
+   }
+   .footer span{padding-right: 3%;}
+   .footer hr{width: 30%;margin-left: 20%;background-color: rgba(255,255,255,.15);}
+   .footer p{color: #fff;padding-left: 10%;text-align: left;width: 100%;color: #999999;font-size: 18px;}
+   .footer ol{list-style-type: none;padding-left: 16%;padding-top: 4%;}
+   .footer ol li{display: inline-block;color: #Ffff;padding-left: 2%;}
+
+
+   
+
+
+
